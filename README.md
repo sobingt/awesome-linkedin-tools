@@ -4,15 +4,15 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![GitHub stars](https://img.shields.io/github/stars/sobingt/awesome-linkedin-tools?style=social)
 
-> An awesome, community-maintained list of LinkedIn automation tools for sourcing, outreach, and workflow automation. Built for recruiters and sales teams. **Use responsibly and comply with LinkedIn's Terms of Service.**
+> A community-maintained list of LinkedIn automation tools for sourcing, outreach, and workflow automation. Built for recruiters and sales teams. **Use responsibly and comply with LinkedIn's Terms of Service.**
 
-⚠️ **Disclaimer**: This list is for educational purposes. Users are responsible for compliance with LinkedIn's Terms of Service. Automation may violate LinkedIn's policies. Always review tool terms and LinkedIn's guidelines before use.
+⚠️ **Disclaimer**: This list serves educational use. You own compliance with LinkedIn Terms of Service and each tool’s terms. Automation carries policy risk. Review guidelines before use.
 
 ---
 
 ## Purpose
 
-This repository is a **single-source Awesome List** you can fork, star, and contribute to. It groups tools by the **LinkedIn activity they automate** — outreach, task automation, automation frameworks, data extraction, enrichment, and multichannel follow-ups — with practical notes for recruiters and sales teams.
+This repository acts as a single reference you fork, star, and extend. Tools sit under the LinkedIn activity they automate.
 
 Primary use cases:
 
