@@ -1,0 +1,151 @@
+name: Suggest a New Tool
+description: Suggest a new LinkedIn automation tool to be added to the awesome list
+title: "Suggest: [Tool Name]"
+labels: ["tool-suggestion", "needs-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a tool! Please fill out the details below.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      description: Official name of the tool
+      placeholder: "e.g., Expandi, Dripify, PhantomBuster"
+    validations:
+      required: true
+
+  - type: input
+    id: homepage
+    attributes:
+      label: Official Homepage
+      description: Link to the tool's official website
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-Line Description
+      description: Brief description (max 20 words) of what the tool does
+      placeholder: "AI-powered LinkedIn outreach automation with multi-account support"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section should this tool belong in?
+      options:
+        - Outreach
+        - Task Automation
+        - Automation Frameworks
+        - Data Extraction & Enrichment
+        - Multichannel Outreach & CRM Integrations
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tool Type
+      description: How is this tool delivered?
+      options:
+        - Cloud SaaS
+        - Browser Extension
+        - Desktop / SaaS
+        - Extension / Cloud
+        - Cloud Automation
+        - Tool + Extension
+        - Framework
+        - Automation Platform
+        - CRM
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: best-for
+    attributes:
+      label: Best For
+      description: Who should use this tool? (e.g., "Individual recruiters", "Enterprise teams")
+      placeholder: "Recruiters scaling outreach"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags (Select all that apply)
+      description: Choose tags that describe the tool
+      options:
+        - label: "`outreach` - LinkedIn messaging/connection automation"
+        - label: "`task-automation` - Profile visits, follow/unfollow, tagging"
+        - label: "`scraping` - Data extraction from LinkedIn"
+        - label: "`enrichment` - Email finding, contact data"
+        - label: "`cloud` - Cloud-based SaaS"
+        - label: "`extension` - Browser extension"
+        - label: "`automation` - Scriptable automation"
+        - label: "`framework` - Automation framework/library"
+        - label: "`integration` - Integrates with CRM/ATS"
+        - label: "`crm` - Customer Relationship Management"
+        - label: "`ai` - Uses AI/Machine Learning"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: risk-level
+    attributes:
+      label: Platform Risk Level
+      description: "How risky is it to use? (LinkedIn ban potential)"
+      options:
+        - "Low - Established, low ban risk"
+        - "Medium - Some policy uncertainty"
+        - "High - Scraping, headless browser, high ban risk"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing Tier
+      description: "What's the typical cost?"
+      options:
+        - "Free"
+        - "<$50/month"
+        - "$50-200/month"
+        - "$200+/month"
+        - "Custom pricing"
+        - "Unknown"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why Should This Be Listed?
+      description: Explain why this tool is valuable for recruiters/sales teams
+      placeholder: "This tool is unique because..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Verify before submitting
+      options:
+        - label: "Tool is actively maintained (recent updates/activity)"
+          required: true
+        - label: "Tool has clear documentation or homepage"
+          required: true
+        - label: "Tool is not already listed in the README"
+          required: true
+        - label: "Description is factual and marketing-neutral"
+          required: true

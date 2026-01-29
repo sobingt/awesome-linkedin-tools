@@ -32,8 +32,9 @@ Contributions are encouraged — see **How to contribute** below.
 5. [Multichannel Outreach & CRM Integrations](#5-multichannel-outreach--crm-integrations)
 6. [Comparison & Selection Guide](#6-comparison--selection-guide)
 7. [FAQ](#7-faq)
-8. [How to contribute](#8-how-to-contribute)
-9. [License](#9-license)
+8. [Additional Resources](#8-additional-resources)
+9. [How to contribute](#9-how-to-contribute)
+10. [License](#10-license)
 
 ---
 
@@ -179,7 +180,24 @@ A: Varies widely. A recruiter might see 3-6 month payback on a $50/mo tool. Larg
 
 ---
 
-## 8) How to contribute
+## 8) Additional Resources
+
+### Essential Guides
+
+- **[TOOLS_COMPARISON_MATRIX.md](TOOLS_COMPARISON_MATRIX.md)** - Feature-by-feature comparison across categories
+- **[INTEGRATION_COMPATIBILITY.md](INTEGRATION_COMPATIBILITY.md)** - Which tools integrate together, recommended stacks
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - How to contribute new tools or improvements
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history and updates
+
+### Quick Links
+
+- [GitHub Issues](https://github.com/sobingt/awesome-linkedin-tools/issues) - Suggest tools or report problems
+- [Discussions](https://github.com/sobingt/awesome-linkedin-tools/discussions) - Ask questions, share strategies
+
+---
+
+## 9) How to contribute
 
 1. Fork this repository.
 2. Add tools under the appropriate category using the same table format.
@@ -194,11 +212,13 @@ A: Varies widely. A recruiter might see 3-6 month payback on a $50/mo tool. Larg
 * Category (Outreach / Task Automation / Automation frameworks / Data Extraction / Multichannel)
 * Risk level: `low`, `medium`, or `high` (automation/scraping risk)
 
+**For detailed guidelines**, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 
-## 9) License
+## 10) License
 
-This project is licensed under the MIT License. See `LICENSE.md` for details.
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
 
 ---
 
